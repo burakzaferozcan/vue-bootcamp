@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{title}}</h1>
+      <p>{{content}}</p>
+      <a target="_blank" :href="url">youtube'a gitmek için tıklayın</a>
+      <br />
+
+      <a :href="eduflow.url" :target="eduflow.target">{{eduflow.title}}</a>
+      <br />
+
+      <button @click="changeTitle('bu 1. buton')">title değiştir</button>
+      <button @click="changeTitle('bu 2. buton')">title değiştir</button>
+      <br />
+      <div
+        class="box"
+        @mousemove="updateCoords('mousemove',$event)"
+        @click="changeTitle('bu da box üzerinde gelen')"
+      >
+        {{`${coords.string} x=${coords.x} y=${coords.y}`}}
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

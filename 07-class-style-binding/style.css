@@ -1,0 +1,44 @@
+@font-face {
+  font-family: virgil;
+  src: url(Virgil.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: virgil;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+}
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #dedede;
+}
+.border {
+  border: 3px dashed #666;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.deneme {
+  width: 100px;
+  height: 100px;
+}
