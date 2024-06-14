@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "ce57",
+      "username": "x",
+      "fullname": "x",
+      "password": "936df486b7c37fba88ef498ce0a8c4b4aea0523d"
+    },
+    {
+      "id": "f744",
+      "username": "www",
+      "fullname": "www",
+      "password": "6b1d5713263f2ccd50611ed42e15661cca2e1a8e"
+    }
+  ],
+  "bookmarks": [],
+  "categories": []
+}
