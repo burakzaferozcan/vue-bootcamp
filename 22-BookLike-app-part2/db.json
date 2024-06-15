@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "ce57",
+      "username": "x",
+      "fullname": "x",
+      "password": "936df486b7c37fba88ef498ce0a8c4b4aea0523d",
+      "likes": [
+        "c284"
+      ],
+      "bookmarks": [
+        "c3ee",
+        "92b9",
+        "81fa"
+      ]
+    },
+    {
+      "id": "f744",
+      "username": "www",
+      "fullname": "www",
+      "password": "6b1d5713263f2ccd50611ed42e15661cca2e1a8e",
+      "likes": [
+        "c3ee"
+      ]
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "c284",
+      "title": "d",
+      "url": "d",
+      "categoryId": "3",
+      "description": "d",
+      "userId": "f744",
+      "created_at": "2024-06-14T18:48:10.701Z"
+    },
+    {
+      "id": "c3ee",
+      "title": "deneme",
+      "url": "https://deneme.com",
+      "categoryId": "6",
+      "description": "deneme açıklama",
+      "userId": "f744",
+      "created_at": "2024-06-14T18:51:44.707Z"
+    },
+    {
+      "id": "92b9",
+      "title": "deneme2",
+      "url": "deneme2",
+      "categoryId": "5",
+      "description": "deneme2",
+      "userId": "f744",
+      "created_at": "2024-06-14T18:57:46.917Z"
+    },
+    {
+      "id": "81fa",
+      "title": "www",
+      "url": "www",
+      "categoryId": "1",
+      "description": "www",
+      "userId": "f744",
+      "created_at": "2024-06-14T18:59:11.490Z"
+    },
+    {
+      "id": "864a",
+      "title": "son",
+      "url": "son",
+      "categoryId": "5",
+      "description": "son",
+      "userId": "f744",
+      "created_at": "2024-06-14T19:00:38.437Z"
+    },
+    {
+      "id": "685b",
+      "title": "son eklenen lo",
+      "url": "son eklenen lo",
+      "categoryId": "4",
+      "description": "son eklenen lo",
+      "userId": "f744",
+      "created_at": "2024-06-14T19:50:26.616Z"
+    },
+    {
+      "id": "fa02",
+      "title": "dddd",
+      "url": "dddd",
+      "categoryId": "5",
+      "description": "ddddd",
+      "userId": "ce57",
+      "created_at": "2024-06-15T15:08:57.530Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Vue.js"
+    },
+    {
+      "id": "2",
+      "name": "React.js"
+    },
+    {
+      "id": "3",
+      "name": "Front-end"
+    },
+    {
+      "id": "4",
+      "name": "Backend"
+    },
+    {
+      "id": "5",
+      "name": "Cloud"
+    },
+    {
+      "id": "6",
+      "name": "Sosyal Yaşam"
+    }
+  ]
+}
