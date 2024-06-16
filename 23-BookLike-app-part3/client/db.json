@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": "477a",
+      "username": "x",
+      "fullname": "x",
+      "password": "3223d46b10aacb429ef32c2f35007160374976fe"
+    },
+    {
+      "id": "f916",
+      "username": "w",
+      "fullname": "w",
+      "password": "64f6019c6de839fcf4e7ddc36b91db371ee8b927"
+    },
+    {
+      "id": "8620",
+      "username": "www",
+      "fullname": "www",
+      "password": "a5a89ecf005528c6c5762a0ea86292d5e37d1288"
+    }
+  ],
+  "user_likes": [
+    {
+      "id": "1c17",
+      "userId": "477a",
+      "bookmarkId": "1b3d"
+    }
+  ],
+  "user_bookmarks": [
+    {
+      "id": "02a7",
+      "userId": "477a",
+      "bookmarkId": "1b3d"
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "1b3d",
+      "title": "deneme 1",
+      "url": "https://www.deneme1.com",
+      "categoryId": "1",
+      "description": "deneme 1",
+      "userId": "477a",
+      "created_at": "2024-06-16T09:17:25.446Z"
+    },
+    {
+      "id": "0ebf",
+      "title": "denemece2",
+      "url": "denemece2",
+      "categoryId": "3",
+      "description": "denemece2",
+      "userId": "477a",
+      "created_at": "2024-06-16T09:47:53.553Z"
+    },
+    {
+      "id": "d37d",
+      "title": "son socket test",
+      "url": "son socket test",
+      "categoryId": "6",
+      "description": "son socket test",
+      "userId": "8620",
+      "created_at": "2024-06-16T10:11:16.884Z"
+    },
+    {
+      "id": "124e",
+      "title": "date format deneme",
+      "url": "date format deneme",
+      "categoryId": "5",
+      "description": "date format deneme",
+      "userId": "477a",
+      "created_at": "2024-06-16T10:19:34.848Z"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Vue.js",
+      "id": "1"
+    },
+    {
+      "name": "React.js",
+      "id": "2"
+    },
+    {
+      "name": "Frontend",
+      "id": "3"
+    },
+    {
+      "name": "Backend",
+      "id": "4"
+    },
+    {
+      "name": "Cloud",
+      "id": "5"
+    },
+    {
+      "name": "Sosyal Yaşam",
+      "id": "6"
+    }
+  ]
+}
